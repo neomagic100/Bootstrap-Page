@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zybooks</title>
+        <!--<script type="text/javascript" src="script.js"></script>-->
+    </head>
+    <body>
+        <p id="short-quote">Lorem ipsum</p>
+        <h3><span>Hi</span></h3>
+
+        <script>
+            var quote = document.getElementById('short-quote');
+            quote.innerHTML='<blockquote>Whatever you do, do it well</blockquote>';
+            var h3 = document.getElementsByTagName('h3')[0];
+            var span = document.getElementsByTagName('span')[0];
+            h3.removeChild(span);
+        </script>
+    </body>
+
+</html>

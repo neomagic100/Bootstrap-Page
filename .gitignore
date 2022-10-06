@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 *.dockerfile
 Dockerfile
 docker-*
 .dockerignore
 zybooks
+=======
+.git
+Dockerfile
+.docker*
+docker*
+>>>>>>> 2c53f0d13b64b302fe48a4d08a2c806aa484336e
