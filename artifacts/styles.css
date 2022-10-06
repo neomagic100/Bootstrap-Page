@@ -7717,7 +7717,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgb(245,228,147) !important;
+  color: rgb(245, 228, 147) !important;
 }
 
 .text-secondary {
@@ -11372,7 +11372,7 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: #157c1b;
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #e6a756;
@@ -11427,7 +11427,7 @@ p {
 }
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    max-width: 100%;
     float: right;
   }
   .intro .intro-text {
@@ -11487,23 +11487,28 @@ p {
     font-size: 1.1rem;
   }
 }
+
 .address strong {
   font-size: 1.2rem;
 }
+
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
+
 div.gallery:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
+
 div.gallery img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
+
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
